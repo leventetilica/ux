@@ -97,7 +97,18 @@ section {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  top:100px;
+}
+
+@media (max-width: 767px) {
+  .section{
+    top:0px !important;
+  }
+}
+
+@media (min-width: 768px) (max-width: 1980px)  {
+  .section{
+    top:100px !important;
+  }
 }
 section .mbr-background-video,
 section .mbr-background-video-preview {
@@ -105,7 +116,6 @@ section .mbr-background-video-preview {
   bottom: 0;
   left: 0;
   right: 0;
-  top: 0;
 }
 
 .hidden {
