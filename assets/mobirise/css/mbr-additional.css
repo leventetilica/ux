@@ -1143,17 +1143,23 @@ a {
   .cid-tp7oTq8lzH .media-container-row {
     padding: 0;
   }
+  .cid-tp7DffcsuI {
+  padding-top:50px!important;
+  }
 }
 @media (min-width: 992px) {
   .cid-tp7oTq8lzH .foot-menu {
     justify-content: flex-end;
+  }
+  .cid-tp7DffcsuI {
+  padding-top:0px!important;
   }
 }
 .cid-tp7oTq8lzH .link:hover {
   color: #ffffff;
 }
 .cid-tp7DffcsuI {
-  padding-top: 75px;
+  padding-top: 150px;
   padding-bottom: 75px;
   background-color: #1a1a1a;
 }
