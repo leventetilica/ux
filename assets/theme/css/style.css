@@ -97,6 +97,7 @@ section {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+	top:20%;
 }
 section .mbr-background-video,
 section .mbr-background-video-preview {
